@@ -36,3 +36,423 @@
     transform: rotate(360deg);
   }
 }
+
+.menu{
+  background-color: rgba(21,110,232,255);
+}
+
+.li-menu{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 50px;
+}
+
+.li-menu:hover{
+  color: rgba(246,145,55,255);
+}
+
+.li-menu-bold{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 40px;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-decoration: none;
+  font-weight: 800;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.li-menu-bold:hover{
+  color: white;
+}
+
+.perfil{
+  width: 170px;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  /* padding: 5px; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil i{
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.perfil p{
+  top: auto;
+}
+
+.perfil:hover{
+  color: rgba(246,145,55,255);
+  cursor: pointer;
+}
+
+.primera-seccion{
+  background-color: rgba(49,155,222,255);
+}
+
+.primera-seccion-uno{
+  padding: 20px 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enunciado-grande{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.enunciado-grande h1{
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.enunciado-grande p{
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.enunciado-grande .row .col button{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px 20px;
+  border: none; 
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-amarillo{
+  background-color: rgba(246,145,55,255);
+}
+
+.btn-azul{
+  background-color: rgba(55,112,246,255);
+}
+
+.formulario-prestamo{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carta-prestamo{
+  background-color: white;
+  width: 80%;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.div-titulo-carta{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.div-titulo-carta h1{
+  color: rgba(13, 144, 212, 1);
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.numero{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.numero h1{
+  color: rgba(246, 145, 55, 1);
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.div-input-range .row{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.div-input-range .row input{
+  background-color:rgba(246, 145, 55, 1);
+  width: 90%;
+}
+
+.div-input-range .row .col{
+  padding: 0 25px;
+}
+
+.div-input-range .row .col p{
+  color: rgba(157, 157, 157, 1);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
+
+.div-input-range .row .col .izquierda{
+  float: left;
+}
+
+.div-input-range .row .col .derecha{
+  float: right;
+}
+
+.seleccion-opciones{
+  padding: 0 20px;
+}
+
+
+.seleccion-opciones .row{
+  margin-bottom: 15px;
+}
+
+.seleccion-opciones .row .col{
+  padding: 0 5px;
+}
+
+.seleccion-opciones p{
+  color: rgba(13, 144, 212, 1);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.seleccion-opciones .row .col button{
+  padding: 2px 10px;
+  background-color: transparent;
+  border: 1px rgba(112, 112, 112, 1) solid;
+  border-radius: 15px;
+  color: rgba(157, 157, 157, 1);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.seleccion-opciones .row .col .button-active{
+  background-color: rgba(246, 154, 55, 1);
+  border: 1px rgba(112, 112, 112, 1) solid;
+  border-radius: 15px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.body-formulario-prestamo{
+  background-color: rgba(238, 232, 232, 1);
+  padding: 10px 20px;
+}
+
+.body-formulario-prestamo .titulo{
+  color: rgba(13, 144, 212, 1);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.body-formulario-prestamo .row .col-md-8 .suave{
+  color: rgba(157, 157, 157, 1);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.body-formulario-prestamo .row .col-md-8 .llenita{
+  color: rgba(157, 157, 157, 1);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.body-formulario-prestamo .row .col .suave{
+  color: rgba(157, 157, 157, 1);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.body-formulario-prestamo .row .col .llenita{
+  color: rgba(157, 157, 157, 1);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.body-formulario-prestamo .row .col .derecha{
+  float: right;
+}
+.body-formulario-prestamo .row .col .izquierda{
+  float: left;
+}
+
+.footer-card{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(246, 154, 55, 1);
+  border-radius: 0 0 50px 50px;
+}
+
+.footer-card h1{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+
+.primera-seccion-dos{
+  padding: 50px 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.primera-seccion-dos h1{
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.primera-seccion-dos hr{
+  height: 10px;
+  background-color: rgba(246, 154, 55, 1);;
+}
+
+.primera-seccion-dos p{
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.primera-seccion-dos p b{
+  color: rgba(0, 50, 167, 1);
+  font-weight: bold;
+}
+
+.primera-seccion-tres{
+  padding-bottom: 50px;
+}
+
+.primera-seccion-tres .col .formulario{
+  background-color: rgba(9,124,202,1);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  width: 90%;
+  border-radius: 50px;
+  border:1px rgba(112, 112, 112, 1);
+  padding: 30px;
+}
+
+.primera-seccion-tres .col .formulario h1{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.primera-seccion-tres .col .formulario p{
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.primera-seccion-tres .col .formulario div{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.primera-seccion-tres .col .formulario div button{
+  text-align: center;
+  width: 80%;
+  height: 50px;
+  background-color: rgba(246, 145, 55, 1);
+  border-radius: 50px;  
+  border: none;
+}
+
+.primera-seccion-tres .col .formulario div input{
+  border-radius: 50px;
+  height: 50px;
+  width: 80%;
+  border: none;
+}
+.primera-seccion-tres .col .formulario div input:focus{
+  outline: none;
+}
+
+
+.segunda-seccion{
+  background-color: white;
+}
+
+.segunda-seccion .container{
+  padding-top: 20px;
+}
+
+.segunda-seccion .container .titulo{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.segunda-seccion .container .titulo h1{
+  color: rgba(13, 144, 212, 1);
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.segunda-seccion .container .titulo hr{
+  color: rgba(246, 145, 55, 1);
+  height: 5px;
+}
+
+.segunda-seccion .container .titulo{
+  padding: 0 50px;
+}
+.segunda-seccion .container .titulo p{
+  color: rgba(157, 157, 157, 1);
+  font-size: 20px;
+  font-weight: 500;
+}
+.segunda-seccion .container .globos .col{
+  text-align: center;
+}
+
+.text-suave{
+  color: rgba(157, 157, 157, 1);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0 70px;
+}
